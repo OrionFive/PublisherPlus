@@ -15,8 +15,8 @@
     <AllowedReferenceRelatedFileExtensions>None</AllowedReferenceRelatedFileExtensions>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>false</DebugSymbols>
-    <DebugType>none</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>..\Assemblies\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -94,9 +94,6 @@
     </Content>
     <Content Include="..\Languages\English\Keyed\Keys.xml">
       <Link>-Mod Files\Languages\English\Keyed\Keys.xml</Link>
-    </Content>
-    <Content Include="..\LoadFolders.xml">
-      <Link>-Mod Files\LoadFolders.xml</Link>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

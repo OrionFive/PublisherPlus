@@ -18,7 +18,15 @@
   <description>
     Provides extended options for publishing mods to the Steam Workshop.\n\n
     This 'mod' has no effect on gameplay and should only be used by mod developers who intend to upload to the Steam platform.
-    - This is a forked release from the original. Forked Launch Version: 1.3.3.0
+    - This is a forked release from the original.
+    New features since original. (Versions 1.4.0.0)
+
+   1. Patched with current Fluffy ModManager version to allow upload both with and without mod.
+   2. Removes automatically the following paths and files from selectable options:
+      Any files in .vs folder
+      Any files in Source folder.
+      Any files in .git folder.
+      .sln, .pdb and README.md file
   </description>
   <loadAfter>
     <li>brrainz.harmony</li>
