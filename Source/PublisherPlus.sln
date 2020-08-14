@@ -7,9 +7,9 @@ EndProject
 Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "RimWorldWin64", "..\..\..\RimWorldWin64.exe", "{50EABE66-7E77-4AFA-91CB-3C9ABFDAC12C}"
 	ProjectSection(DebuggerProjectSystem) = preProject
 		PortSupplier = 00000000-0000-0000-0000-000000000000
-		Executable = C:\Program Files (x86)\Steam\steamapps\common\RimWorld\RimWorldWin64.exe
+		Executable = ..\..\..\RimWorldWin64.exe
 		RemoteMachine = DESKTOP-4ILETT1
-		StartingDirectory = C:\Program Files (x86)\Steam\steamapps\common\RimWorld
+		StartingDirectory = ..\..\..\
 		Environment = dnspy_unity_dbg2=--debugger-agent=transport=dt_socket,server=y,address=127.0.0.1:56000,suspend=y,no-hide-debugger	
 		LaunchingEngine = 00000000-0000-0000-0000-000000000000
 		UseLegacyDebugEngines = No
@@ -33,10 +33,10 @@ Global
 		{B5FA2312-C6FB-4782-A8E0-6FF2B74F4C34}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B5FA2312-C6FB-4782-A8E0-6FF2B74F4C34}.Release|x64.ActiveCfg = Release|Any CPU
 		{B5FA2312-C6FB-4782-A8E0-6FF2B74F4C34}.Release|x64.Build.0 = Release|Any CPU
-		{50EABE66-7E77-4AFA-91CB-3C9ABFDAC12C}.Debug|Any CPU.ActiveCfg = Release|x64
-		{50EABE66-7E77-4AFA-91CB-3C9ABFDAC12C}.Debug|x64.ActiveCfg = Release|x64
-		{50EABE66-7E77-4AFA-91CB-3C9ABFDAC12C}.Release|Any CPU.ActiveCfg = Release|x64
-		{50EABE66-7E77-4AFA-91CB-3C9ABFDAC12C}.Release|x64.ActiveCfg = Release|x64
+		{50EABE66-7E77-4AFA-91CB-3C9ABFDAC12C}.Debug|Any CPU.ActiveCfg = Release
+		{50EABE66-7E77-4AFA-91CB-3C9ABFDAC12C}.Debug|x64.ActiveCfg = Release
+		{50EABE66-7E77-4AFA-91CB-3C9ABFDAC12C}.Release|Any CPU.ActiveCfg = Release
+		{50EABE66-7E77-4AFA-91CB-3C9ABFDAC12C}.Release|x64.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
