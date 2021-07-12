@@ -9,10 +9,10 @@ namespace PublisherPlus.Patch
     {
         private static bool Prefix(ref Window __result, TaggedString text)
         {
-            if (text != "ConfirmSteamWorkshopUpload".Translate()) { return true; }
+            if (text != "ConfirmContentAuthor".Translate()) return true;
 
             var selectedMod = Access.GetSelectedMod();
-            if (selectedMod == null) { return false; }
+            if (selectedMod == null) return false;
             __result = new Dialog_Publish(selectedMod.GetWorkshopItemHook());
 
             return false;
