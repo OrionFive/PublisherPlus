@@ -11,7 +11,7 @@ using Verse.Steam;
 
 namespace PublisherPlus.Interface
 {
-    internal class Dialog_Publish : Window
+    internal class Dialog_Publish : Dialog_MessageBox
     {
         private const float Padding = 12f;
         private const float ScrollBarWidth = 20f;
@@ -23,7 +23,7 @@ namespace PublisherPlus.Interface
 
         private int _page;
 
-        public Dialog_Publish(WorkshopItemHook hook)
+        public Dialog_Publish(WorkshopItemHook hook) : base(null)
         {
             _pack = new WorkshopPackage(hook);
             doCloseButton = false;
