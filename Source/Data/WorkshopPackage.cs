@@ -218,7 +218,7 @@ namespace PublisherPlus.Data
 
             Prepare();
 
-            Workshop.Upload(this);
+            Access.Method_Verse_Steam_Workshop_Upload_Call(this);
         }
 
         public static void OnUploaded()
