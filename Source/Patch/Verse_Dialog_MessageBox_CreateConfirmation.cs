@@ -4,7 +4,7 @@ using Verse;
 
 namespace PublisherPlus.Patch
 {
-    [HarmonyPatch(typeof(Dialog_MessageBox), "CreateConfirmation")]
+    [HarmonyPatch(typeof(Dialog_MessageBox), nameof(Dialog_MessageBox.CreateConfirmation))]
     internal static class Verse_Dialog_MessageBox_CreateConfirmation
     {
         private static bool Prefix(ref Window __result, TaggedString text)
