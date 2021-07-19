@@ -15,7 +15,7 @@ namespace PublisherPlus.Interface
     {
         private const float Padding = 12f;
         private const float ScrollBarWidth = 20f;
-        private const float ButtonHeight = 50f;
+        private new const float ButtonHeight = 50f;
 
         private readonly WorkshopPackage _pack;
         private Vector2 _scroll;
